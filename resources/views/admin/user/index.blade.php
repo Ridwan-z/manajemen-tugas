@@ -12,8 +12,8 @@
                         class="fas fa-plus mr-2"></i>Tambah
                     Data</a></div>
             <div><a href="{{ route('userExcel') }}" class="btn btn-success btn-sm"><i
-                        class="fas fa-file-excel mr-2"></i>Excel</a> <a href="#" class="btn btn-danger btn-sm"><i
-                        class="fas fa-file-pdf mr-2"></i>PDF</a></div>
+                        class="fas fa-file-excel mr-2"></i>Excel</a> <a href="{{ route('userPdf') }}"
+                    class="btn btn-danger btn-sm" target="_blank"><i class="fas fa-file-pdf mr-2"></i>PDF</a></div>
         </div>
         <div class="card-body">
             <div class="table-responsive">
