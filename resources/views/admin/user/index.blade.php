@@ -11,8 +11,9 @@
             <div class="mb-1 mr-2"><a href="{{ route('userCreate') }}" class="btn btn-primary btn-sm"><i
                         class="fas fa-plus mr-2"></i>Tambah
                     Data</a></div>
-            <div><a href="#" class="btn btn-success btn-sm"><i class="fas fa-file-excel mr-2"></i>Excel</a> <a
-                    href="#" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf mr-2"></i>PDF</a></div>
+            <div><a href="{{ route('userExcel') }}" class="btn btn-success btn-sm"><i
+                        class="fas fa-file-excel mr-2"></i>Excel</a> <a href="#" class="btn btn-danger btn-sm"><i
+                        class="fas fa-file-pdf mr-2"></i>PDF</a></div>
         </div>
         <div class="card-body">
             <div class="table-responsive">
